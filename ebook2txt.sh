@@ -4,7 +4,7 @@ mkdir -p temp
 
 for i in *.*htm*
 do
-    lynx -dump -nolist -nomargins -width=80 -force_html \
+    lynx -dump -nolist -nomargins -width=70 -force_html \
          -assume_charset=utf-8 "$i" > temp/"$i"
 done
 
