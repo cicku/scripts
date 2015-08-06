@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # crousloops.sh - because CROUS networks need a script
-# Last update Time-stamp: <2015-08-06 18:18:00 (f6k)> 
+# Last update Time-stamp: <2015-08-06 18:18:28 (f6k)> 
 # Author: f6k <f6k@opmbx.org>
 
 # ABOUT.  For murky reason, the wifi network of the CROUS and its captive
@@ -15,7 +15,7 @@
 # REQUIRES.  coreutils, iw, dhcpcd, curl, aplay.
 
 # USAGE.  crousloops.sh has two options: `-l' or `--loop' for the loop used to
-# reconnect to the access point and to re-auth to the captive portal.  `-t'
+# reconnect to the access point and to re-auth to the captive portal. `-t'
 # or `--test' is for testing the presence of the access point. If you don't
 # set options, crousloops.sh will be launched with `-l' as default. See `-h'
 # or `--help' for summary.
