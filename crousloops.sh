@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # crousloops.sh - because CROUS networks need a script
-# Last update Time-stamp: <2015-08-06 18:15:01 (f6k)> 
+# Last update Time-stamp: <2015-08-06 18:16:31 (f6k)> 
 # Author: f6k <f6k@opmbx.org>
 
 # ABOUT.  For murky reason, the wifi network of the CROUS and its captive
-# portal disconnect the client after some time, With an infinite loop
+# portal disconnect the client after some time. With an infinite loop
 # crousloops.sh attempt to automate the process by checking if wlan0 is
 # connected -- and reconnect it if it's not -- and by re-auth with captive
 # portal if necessary. Note that, sometimes and mostly because of power
