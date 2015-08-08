@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # crousloops.sh - because CROUS networks need a script
-# Last update Time-stamp: <2015-08-06 18:18:58 (f6k)> 
+# Last update Time-stamp: <2015-08-08 09:00:03 (f6k)> 
 # Author: f6k <f6k@opmbx.org>
 
 # ABOUT.  For murky reason, the wifi network of the CROUS and its captive
@@ -59,9 +59,9 @@
 # └─┘┘─┘ └┘│  │└─┘
 ########### CONFIG
 
-# Variables that need to be modified.
+# Variables that need to be modified. Full path required.
 PASSFILE="/home/f6k/.crousloops"
-SOUND="~/t/TokyoTrainStation.AdiumSoundset/On.wav"
+SOUND="/home/f6k/t/TokyoTrainStation.AdiumSoundset/On.wav"
 
 # ┐ ┬┬─┐┬─┐o┬─┐┬─┐┬  ┬─┐┐─┐
 # │┌┘│─┤│┬┘││─┤│─││  ├─ └─┐
@@ -70,7 +70,7 @@ SOUND="~/t/TokyoTrainStation.AdiumSoundset/On.wav"
 
 # Name by which this script was invoked.
 PROGNAME=$(basename $0)
-VERSION="0.3.2rev11 (2015-08-06)"
+VERSION="0.3.2rev12 (2015-08-06)"
 
 # Login and password for captive portal.
 LOGIN="$(cut -d" " -f1 $PASSFILE)"
