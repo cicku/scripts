@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # pdftinylatex.sh - generate tiny paper sized pdf from PERSONAL LaTeX files
-# Last update Time-stamp: <2015-10-27 14:51:45 (f6k)> 
+# Last update Time-stamp: <2016-03-07 14:57:33 (f6k)> 
 # Author: f6k <f6k@opmbx.org>
 
 # pdftinylatex.sh is shared by license Dual Beer-Ware/WTFPLv2.
@@ -24,7 +24,7 @@ touch /tmp/$TMPFILE.tex
 
 # tinyfication activated
 # (is usefull only for my own LaTeX files...)
-sed -e 's/12pt,a4paper,draft]{article/14pt,a5paper,draft]{extarticle/' \
+sed -e 's/12pt,a4paper,draft]{article/17pt,a5paper,draft]{extarticle/' \
     -e 's/12pt,a4paper,draft]{report/14pt,a5paper,draft]{extreport/' \
     -e 's/hmargin=2cm,vmargin=2.5cm/hmargin=0.2cm,vmargin=0.25cm/' \
     -e 's/\\hspace\*{0\.2\\textwidth}\\rule{1pt}//' \
